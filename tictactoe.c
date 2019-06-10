@@ -92,7 +92,7 @@ void playGame() {
         }
     }
     printBoard(board);
-    bool xTurn = false;
+    bool xTurn = true;
     int end = checkEnd(board);
     while(end == 0) {
         if(xTurn) {
